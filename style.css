@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@400;600;700&display=swap');
+
+* {
+  padding:0;
+  Margin:0;
+  box-sizing:border-box;
+}
+
+:root {
+  - Green: hsl(75, 94%, 57%);
+
+- White: hsl(0, 0%, 100%);
+
+- Grey 700: hsl(0, 0%, 20%);
+- Grey 800: hsl(0, 0%, 12%);
+- Grey 900: hsl(0, 0%, 8%);
+
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding:10px;
+  background: hsl(0, 0%, 8%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 20%);
+  padding:15px;
+  margin:50px 10px;
+  border-radius:10px;
+
+}
+
+.card img {
+  display:block;
+  margin:auto;
+  border-radius:50%;
+  width:80px;
+  margin-top:10px;
+  
+}
+
+.card h1 {
+  text-align:center;
+  color: white;
+  font-size:26px;
+  margin-top:20px;
+  font-weight:400;
+}
+
+.card h4 {
+  text-align:center;
+  color: hsl(75, 94%, 57%);
+  font-weight:400;
+  margin-top:10px;
+  font-size:15px;
+  
+}
+
+.card p {
+  text-align:center;
+  color:white;
+  font-size:16px;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.links {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:15px;
+}
+
+.links button {
+  width:90%;
+  border-radius:8px;
+  padding:15px;
+  border:none;
+  background: hsl(0, 0%, 30%);
+  color:white;
+  font-weight:600;
+}
